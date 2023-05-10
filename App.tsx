@@ -13,7 +13,6 @@ import {
   Platform,
 } from "react-native";
 
-const SERVER_URL = process.env.BASE_URL;
 export default function App() {
   const [images, setImages] = useState<[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
