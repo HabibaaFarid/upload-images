@@ -41,7 +41,7 @@ export default function App() {
       (img: { uri: any; type: string; name: string }, index: number) => {
         return formData.append("images", {
           uri: img.uri,
-          type: "image", // Adjust the type according to the image format
+          type: "image",
           name: `image_${index}.jpg`,
         });
       }
