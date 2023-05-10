@@ -112,7 +112,7 @@ export default function App() {
                     <Image
                       style={{ width: 150, height: 150, margin: 10 }}
                       key={img.id}
-                      source={{ uri: SERVER_URL + img.imgUrl }}
+                      source={{ uri: process.env.BASE_URL + img.imgUrl }}
                     />
                   );
                 }
